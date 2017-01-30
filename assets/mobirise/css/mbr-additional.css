@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -433,11 +434,11 @@ h6,
   color: #ffffff;
 }
 #menu-0 .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-0 .dropdown-item,
 #menu-0 .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-0 .link:hover,
 #menu-0 .dropdown-item:hover,
@@ -447,19 +448,19 @@ h6,
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-menu {
-  background: #0e0e0e;
+  background: #000000;
 }
 #menu-0 .nav-dropdown-sm .link:focus,
 #menu-0 .nav-dropdown-sm .link:hover,
 #menu-0 .nav-dropdown-sm .dropdown-item:focus,
 #menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
+  background: #000000!important;
 }
 #menu-0 .navbar,
 #menu-0 .nav-dropdown-sm,
 #menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-0 .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
+  background: #000000;
 }
 #menu-0 .bg-color.transparent .link {
   color: #ffffff;
@@ -478,9 +479,32 @@ h6,
 }
 #header2-17 .mbr-section-text {
   color: #ffffff;
+  text-align: left;
+  font-size: 13px;
+}
+#header2-17 .mbr-section-title {
+  text-align: left;
 }
 #features6-5 P {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+#features6-5 H4 {
+  font-size: 18px;
+}
+#header3-1m .mbr-section-title,
+#header3-1m .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1m H3 {
+  font-size: 30px;
+}
+#header3-1m SMALL {
+  font-size: 14px;
+}
+#content6-1l P {
+  font-size: 14px;
 }
 #header3-q .mbr-section-title,
 #header3-q .mbr-section-subtitle {
@@ -489,10 +513,6 @@ h6,
 #header3-q H3 {
   font-size: 36px;
   color: #ffffff;
-}
-#social-buttons2-r .mbr-section-title,
-#social-buttons2-r .btn-social {
-  color: #232323;
 }
 
 #menu-a .hide-buttons .nav-btn {

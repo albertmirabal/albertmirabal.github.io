@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 55,
+    "uniqCompNum": 60,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": ""
@@ -58,22 +58,22 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.8rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.866rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -95,8 +95,8 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#282828",
-            "fontSize": 0.75,
+            "bgColor": "#000000",
+            "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -110,10 +110,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/untitled-1-529x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -129,6 +131,16 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#ffffff",
+              "text-align": "left",
+              "font-size": "13px"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "header2-17",
           "_params": {
             "imageSize": 50,
@@ -142,8 +154,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
+            "overlayOpacity": "0.6",
+            "overlayColor": "#28324e",
             "inverse": false,
             "showTitle": true,
             "showText": true,
@@ -170,12 +182,7 @@
           },
           "title": "Albert Mirabal",
           "text": "From a very young age, I have known that success takes hard work and dedication. I’ve always been the type of person to put hard work, time and effort into everything that I want to achieve. Give me a task, and you can be sure that I will do everything I possibly can to achieve that task at my highest potential. Failure for me has never been an option. If I can’t do something I will try again until I get it right. I’ve always been very well rounded and interested in many different activities including....",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"biography.html\" data-toolbar=\"-mbrBtnMove\">SEE FULL BIOGRAPHY</a>",
-          "_styles": {
-            ".mbr-section-text": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#header3-1m\" data-toolbar=\"-mbrBtnMove\">SEE FULL BIOGRAPHY</a>"
         },
         {
           "_inherit": "features3",
@@ -185,7 +192,13 @@
           "_name": "features6",
           "_styles": {
             "P": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "15px"
+            },
+            "H4": {
+              "font-size": "18px"
             }
           },
           "_anchor": "features6-5",
@@ -219,7 +232,8 @@
               "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#4c6972"
             }
           },
           "title1": "Graphic Designer",
@@ -230,31 +244,33 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "tools-2",
-              "family": "et-line",
+              "name": "alert",
+              "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#4c6972"
             }
           },
-          "title2": "Automobile Designer",
+          "title2": "Firefighter",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "The way cars are made and the modeling of cars has always fascinated me. When I grow up I would like to seek a career in auotmobile designing and would like to design iconic cars that would go down in history.",
+          "caption2": "<p>Becoming a firefighter was never something I looked up to doing until my parents told me it fit my personality. So then I realized it seemed quite interesting and I feel that i can do good things if I become a firefighter.</p>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "desktop",
+              "name": "tools-2",
               "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#4c6972"
             }
           },
-          "title3": "Web Designer",
+          "title3": "Automobile Designer",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Web Designing is something that I never really thought of as a possibility for a future career, but once I started working with it and making websites I realized how much I enjoyed it and hope to seek a future in it.",
+          "caption3": "The way cars are made and the modeling of cars has always fascinated me. When I grow up I would like to seek a career in auotmobile designing and would like to design iconic cars that would go down in history.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -264,7 +280,8 @@
               "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#4c6972"
             }
           },
           "title4": "Proffesional Basketball Player",
@@ -306,6 +323,51 @@
               "text-align": "center"
             },
             "H3": {
+              "font-size": "30px"
+            },
+            "SMALL": {
+              "font-size": "14px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1m",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#f7f7f7",
+            "showMeta": true
+          },
+          "title": "Biography",
+          "meta": "Albert Mirabal"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-1l",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "2",
+            "bgColor": "#f7f7f7"
+          },
+          "text1": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From a very young age, I have known that success takes hard work and dedication. I’ve always been the type of person to put hard work, time and effort into everything that I want to achieve. Give me a task, and you can be sure that I will do everything I possibly can to achieve that task at my highest potential. Failure for me has never been an option. If I can’t do something I will try again until I get it right. I’ve always been very well rounded and interested in many different activities including playing sports, making music, drawing, computers, and academics. I am very focused on working towards my future goals and try to accomplish as much as I can at a young age so that I can always be one step ahead of everyone. I like to learn about many different fields so that I can use the&nbsp;</p>",
+          "text2": "<p>knowledge I gain now to make decisions to help me prepare towards a lifelong career. I want to be a successful adult and I am eager to learn as much as I can within the technology production program so that I can use it towards whatever career path I choose. Technology makes the world go round and I feel privileged to be a part of a program that is opening so many doors for my future. Thanks to this program I am capable of producing work now that many adults only wish they could do and from this point on I will only work harder each day to get better at what I do. This is a big world and I have many challenges ahead of me, but my hard work, intelligence and dedication along with great amount of technology at my fingertips will help me achieve everything I desire to.&nbsp;</p>",
+          "_styles": {
+            "P": {
+              "font-size": "14px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
               "font-size": "36px",
               "color": "#ffffff"
             }
@@ -325,30 +387,38 @@
           "meta": "<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-Nikos Kazantzakis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-r",
+          "_name": "contacts1",
+          "_anchor": "contacts1-1n",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
-          "text": "FOLLOW ME",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<p><strong>&nbsp;Address</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15015 SW 24th St, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Miami,&nbsp;FL 33185&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: amirabal@miamiartsstudio.com",
+          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://mas.dadeschools.net/\" target=\"_blank\">School website</a><br>\n<a href=\"http://mas.dadeschools.net/pate%20class%20website/index.html\" target=\"_blank\">Digital Design teacher website</a><br><br></p>"
         }
       ]
     },
@@ -415,7 +485,7 @@
           "_name": "menu",
           "_anchor": "menu-a",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -547,7 +617,7 @@
           "_name": "menu",
           "_anchor": "menu-b",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -679,7 +749,7 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -811,7 +881,7 @@
           "_name": "menu",
           "_anchor": "menu-d",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -943,7 +1013,7 @@
           "_name": "menu",
           "_anchor": "menu-e",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1076,7 +1146,7 @@
           "_name": "menu",
           "_anchor": "menu-i",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1235,7 +1305,7 @@
           "_name": "menu",
           "_anchor": "menu-j",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1394,7 +1464,7 @@
           "_name": "menu",
           "_anchor": "menu-k",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1553,7 +1623,7 @@
           "_name": "menu",
           "_anchor": "menu-l",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1712,7 +1782,7 @@
           "_name": "menu",
           "_anchor": "menu-m",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1871,7 +1941,7 @@
           "_name": "menu",
           "_anchor": "menu-n",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -2030,7 +2100,7 @@
           "_name": "menu",
           "_anchor": "menu-o",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -2189,7 +2259,7 @@
           "_name": "menu",
           "_anchor": "menu-p",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -2348,7 +2418,7 @@
           "_name": "menu",
           "_anchor": "menu-1a",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -2484,7 +2554,7 @@
           "_name": "menu",
           "_anchor": "menu-1d",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -2636,7 +2706,7 @@
           "_name": "menu",
           "_anchor": "menu-1f",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
