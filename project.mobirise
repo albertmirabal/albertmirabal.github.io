@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Student Portfolio",
-    "currentPage": "photoshop.html",
+    "currentPage": "illustrator.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -15,13 +15,13 @@
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 79,
+    "uniqCompNum": 80,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": ""
@@ -58,10 +58,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -96,7 +96,7 @@
           "_anchor": "menu-0",
           "_params": {
             "bgColor": "#5c616c",
-            "fontSize": "1",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -398,24 +398,25 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-1n",
+          "_name": "contacts3",
+          "_anchor": "contacts3-27",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cities-2000x1250.jpg",
             "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.8,
+            "overlayOpacity": "0.9",
             "overlayColor": "#3C3C3C"
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/am-logo-psd-128x128.jpg",
-              "width": 128,
+              "src": "@PROJECT_PATH@/assets/images/am-logo-psd-265x265.jpg",
+              "class": "card-img-top",
+              "width": 265,
               "active": true,
               "link": "",
               "alt": "",
@@ -423,14 +424,74 @@
               "linkInNewWindow": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
               "link": "",
               "size": 0
             }
           },
-          "text1": "<p><strong>&nbsp;Address</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15015 SW 24th St, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Miami,&nbsp;FL 33185&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: amirabal@miamiartsstudio.com",
-          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://mas.dadeschools.net/\" target=\"_blank\">School website</a><br>\n<a href=\"http://mas.dadeschools.net/pate%20class%20website/index.html\" target=\"_blank\">Digital Design teacher website</a><br><br></p>"
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "305-878-1680",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "15015 SW 24th St Miami, FL 33185",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<a href=\"mailto:support@mobirise.com\">a</a>mirabal@miamiartsstudio.com",
+          "title1": "Categories",
+          "text5": "<li><a class=\"text-white\" href=\"#\">E</a>ditor</li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-white\" href=\"#\">A</a>nimator</li><li><a class=\"text-white\" href=\"#\">A</a>thlete</li><li><a class=\"text-white\" href=\"#\">Tech</a></li>",
+          "text6": "<strong>Contacts</strong><br>Email: amirabal@miamiartsstudio.com<br>Phone: 305-878-1680<br><br><br><br><strong>Address</strong><br>15015 SW 24th St Miami, FL 33185<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "amirabal@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         }
       ]
     },
@@ -460,10 +521,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -498,7 +559,7 @@
           "_anchor": "menu-0",
           "_params": {
             "bgColor": "#5c616c",
-            "fontSize": "1",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -749,6 +810,105 @@
           "_anchor": "gallery3-25",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-27",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cities-2000x1250.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/am-logo-psd-265x265.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "305-878-1680",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "15015 SW 24th St Miami, FL 33185",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<a href=\"mailto:support@mobirise.com\">a</a>mirabal@miamiartsstudio.com",
+          "title1": "Categories",
+          "text5": "<li><a class=\"text-white\" href=\"#\">E</a>ditor</li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-white\" href=\"#\">A</a>nimator</li><li><a class=\"text-white\" href=\"#\">A</a>thlete</li><li><a class=\"text-white\" href=\"#\">Tech</a></li>",
+          "text6": "<strong>Contacts</strong><br>Email: amirabal@miamiartsstudio.com<br>Phone: 305-878-1680<br><br><br><br><strong>Address</strong><br>15015 SW 24th St Miami, FL 33185<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "amirabal@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         }
       ]
     },
@@ -778,10 +938,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -816,7 +976,7 @@
           "_anchor": "menu-0",
           "_params": {
             "bgColor": "#5c616c",
-            "fontSize": "1",
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1077,6 +1237,105 @@
           "_anchor": "gallery3-23",
           "articleLayout": false,
           "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-27",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/cities-2000x1250.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/am-logo-psd-265x265.jpg",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "305-878-1680",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "15015 SW 24th St Miami, FL 33185",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<a href=\"mailto:support@mobirise.com\">a</a>mirabal@miamiartsstudio.com",
+          "title1": "Categories",
+          "text5": "<li><a class=\"text-white\" href=\"#\">E</a>ditor</li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-white\" href=\"#\">A</a>nimator</li><li><a class=\"text-white\" href=\"#\">A</a>thlete</li><li><a class=\"text-white\" href=\"#\">Tech</a></li>",
+          "text6": "<strong>Contacts</strong><br>Email: amirabal@miamiartsstudio.com<br>Phone: 305-878-1680<br><br><br><br><strong>Address</strong><br>15015 SW 24th St Miami, FL 33185<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "amirabal@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
         }
       ]
     },
@@ -1106,22 +1365,22 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1144,7 +1403,7 @@
           "_anchor": "menu-c",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1276,7 +1535,7 @@
           "_anchor": "menu-d",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1408,7 +1667,7 @@
           "_anchor": "menu-e",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1541,7 +1800,7 @@
           "_anchor": "menu-k",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1700,7 +1959,7 @@
           "_anchor": "menu-p",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1859,7 +2118,7 @@
           "_anchor": "menu-1a",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -1995,7 +2254,7 @@
           "_anchor": "menu-1d",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -2147,7 +2406,7 @@
           "_anchor": "menu-1f",
           "_params": {
             "bgColor": "#000000",
-            "fontSize": 0.75,
+            "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
