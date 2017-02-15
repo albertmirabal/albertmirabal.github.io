@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Student Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "illustrator.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -967,7 +967,7 @@
             "fields": {
               "name": {
                 "title": "Name",
-                "visible": false,
+                "visible": true,
                 "customTitle": "Name*"
               },
               "email": {
@@ -1096,13 +1096,13 @@
               "font-size": "22px",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#ffffff"
+              "color": "#000000"
             },
             "H4": {
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "font-size": "46px",
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_anchor": "features6-22",
