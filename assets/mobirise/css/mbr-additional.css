@@ -421,6 +421,13 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
+#header1-29 .mbr-section-title {
+  color: #cccccc;
+}
+#header3-2b .mbr-section-title,
+#header3-2b .mbr-section-subtitle {
+  text-align: center;
+}
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -491,6 +498,14 @@ h6,
 }
 #header2-17 .mbr-section-title {
   text-align: left;
+}
+#header3-28 .mbr-section-title,
+#header3-28 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-28 H3 {
+  text-align: right;
+  font-size: 36px;
 }
 #features6-5 P {
   text-align: center;
