@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 
 
 
@@ -422,7 +424,11 @@ h6,
   opacity: 0 !important;
 }
 #header1-29 .mbr-section-title {
+  color: #efefef;
+}
+#header1-29 .mbr-section-lead {
   color: #cccccc;
+  font-family: 'Oxygen', sans-serif;
 }
 #header3-2b .mbr-section-title,
 #header3-2b .mbr-section-subtitle {
