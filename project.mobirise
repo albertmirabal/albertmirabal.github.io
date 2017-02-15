@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Student Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "photoshop.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -202,7 +202,7 @@
           },
           "_anchor": "header2-17",
           "_params": {
-            "imageSize": "35",
+            "imageSize": "36",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/ae-2000x1125.jpg",
@@ -341,7 +341,7 @@
           },
           "title2": "Firefighter",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "<p>Becoming a firefighter was never something I looked up to doing until my parents told me it fit my personality. So then I realized it seemed quite interesting and I feel that i can do good things if I become a firefighter.</p>",
+          "caption2": "<p>Becoming a firefighter was never something I looked up to doing until my parents told me it fit my personality. So then I realized it seemed quite interesting and I feel that I can do good things if I become a firefighter.</p>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -357,7 +357,7 @@
           },
           "title3": "Automobile Designer",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "The way cars are made and the modeling of cars has always fascinated me. When I grow up I would like to seek a career in auotmobile designing and would like to design iconic cars that would go down in history.",
+          "caption3": "The way cars are made and the modeling of cars has always fascinated me. When I grow up I would like to seek a career in auotmobile design and would like to design iconic cars that would go down in history.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -742,7 +742,7 @@
           },
           "title2": "Adobe Photoshop",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "If &nbsp;you really want to do something, you will find a way. If you dont you will find an excuse.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Jim Rohn",
+          "caption2": "If &nbsp;you really want to do something, you will find a way. If you don't, you will find an excuse.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Jim Rohn",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -1159,7 +1159,7 @@
           },
           "title2": "Adobe Illustrator",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "If &nbsp;you really want to do something, you will find a way. If you dont you will find an excuse.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Jim Rohn",
+          "caption2": "If &nbsp;you really want to do something, you will find a way. If you don't, you will find an excuse.<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - Jim Rohn",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
