@@ -70,7 +70,7 @@
               "color": "#efefef"
             },
             ".mbr-section-lead": {
-              "color": "#cccccc",
+              "color": "#c1c1c1",
               "font-family": "'Oxygen', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             }
@@ -492,7 +492,7 @@
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.9",
+            "overlayOpacity": "0.8",
             "overlayColor": "#3C3C3C"
           },
           "logo": {
@@ -909,7 +909,7 @@
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.9",
+            "overlayOpacity": "0.8",
             "overlayColor": "#3C3C3C"
           },
           "logo": {
@@ -1101,13 +1101,13 @@
               "font-size": "22px",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#000000"
+              "color": "#efefef"
             },
             "H4": {
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "font-size": "46px",
-              "color": "#000000"
+              "color": "#efefef"
             }
           },
           "_anchor": "features6-22",
@@ -1116,7 +1116,7 @@
             "paddingBottom": "4",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/beautiful-cherry-blossom-2000x1335.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/beautiful-fall-wallpapers-2000x1125.jpg",
             "bgColor": "#efefef",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1125,7 +1125,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.3",
-            "overlayColor": "#ffbf00",
+            "overlayColor": "#cea11c",
             "columns": "3",
             "showImages": false,
             "showTitles": true,
@@ -1312,7 +1312,7 @@
             "spacing": "2",
             "showText": true,
             "filter": false,
-            "bgColor": "#d4bea6",
+            "bgColor": "#deb477",
             "filterBgColor": true,
             "fullWidth": false,
             "showBullets": true
@@ -1336,7 +1336,7 @@
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.9",
+            "overlayOpacity": "0.8",
             "overlayColor": "#3C3C3C"
           },
           "logo": {
