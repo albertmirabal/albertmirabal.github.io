@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Student Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "introduction.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -2477,7 +2477,7 @@
           },
           "title": "A Little Bit About Me",
           "text": "From a very young age, I have known that success takes hard work and dedication. I’ve always been the type of person to put hard work, time and effort into everything that I want to achieve. Give me a task, and you can be sure that I will do everything I possibly can to achieve that task at my highest potential. Failure for me has never been an option. If I can’t do something I will try again until I get it right. I’ve always been very well rounded and interested in many different activities including....",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"index.html#header3-1m\" data-toolbar=\"-mbrBtnMove\">SEE FULL BIOGRAPHY</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"introduction.html#content6-2y\" data-toolbar=\"-mbrBtnMove\">SEE FULL BIOGRAPHY</a>"
         },
         {
           "_styles": {
