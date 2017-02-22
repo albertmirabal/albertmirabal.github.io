@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Student Portfolio",
-    "currentPage": "introduction.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -716,8 +716,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/albert-mirabal-vintage-tv-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/albert-mirabal-vintage-tv-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/old-tv-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/old-tv-2000x1333.jpg",
                 "caption": "Old TV set",
                 "active": false
               },
@@ -736,8 +736,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/batman-logo-ai-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/batman-logo-ai-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/batman-logo-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/batman-logo-2000x1333.jpg",
                 "caption": "Batman logo recreation",
                 "active": false
               },
@@ -746,8 +746,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mas-maverick-ai-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mas-maverick-ai-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image-4-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/image-4-2000x1333.jpg",
                 "caption": "Miami Arts Studio Maverick logo competition piece",
                 "active": false
               },
@@ -756,9 +756,9 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/albert-mirabal-12-2000x2800-800x1120.jpg",
-                "image": "@PROJECT_PATH@/assets/images/albert-mirabal-12-2000x2800.jpg",
-                "caption": "Self face drawing recreation",
+                "thumb": "@PROJECT_PATH@/assets/images/12-yrs-old-face-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/12-yrs-old-face-2000x1333.jpg",
+                "caption": "Self face drawing recreation 12 years old",
                 "active": false
               },
               {
@@ -766,19 +766,19 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/blueprint-final-ai-2000x3000-800x1200.jpg",
-                "image": "@PROJECT_PATH@/assets/images/blueprint-final-ai-2000x3000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image-3-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/image-3-2000x1333.jpg",
                 "caption": "Kayak Motor Blueprint",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/albert-mirabal-24-2000x2800-800x1120.jpg",
-                "image": "@PROJECT_PATH@/assets/images/albert-mirabal-24-2000x2800.jpg",
-                "caption": "Self face drawing recreation",
+                "thumb": "@PROJECT_PATH@/assets/images/24-yrs-old-face-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/24-yrs-old-face-2000x1333.jpg",
+                "caption": "Self face drawing recreation 24 years old",
                 "active": false
               },
               {
@@ -786,10 +786,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/albert-mirabal-48-2000x2792-800x1116.jpg",
-                "image": "@PROJECT_PATH@/assets/images/albert-mirabal-48-2000x2792.jpg",
-                "caption": "Self face drawing recreation",
-                "active": false
+                "thumb": "@PROJECT_PATH@/assets/images/48-yrs-old-face-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/48-yrs-old-face-2000x1333.jpg",
+                "caption": "Self face drawing recreation 48 years old",
+                "active": true
               }
             ],
             "spacing": "2",
@@ -3069,7 +3069,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/image-1-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/image-1-2000x1333.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -3099,7 +3099,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/image-4-2000x1333-800x533.jpg",
                 "image": "@PROJECT_PATH@/assets/images/image-4-2000x1333.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": "1",
