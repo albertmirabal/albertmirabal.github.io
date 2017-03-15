@@ -1260,11 +1260,6 @@ h6,
 #header3-36 .mbr-section-subtitle {
   text-align: center;
 }
-#content8-32 .mbr-section-title,
-#content8-32 p {
-  text-align: right;
-  color: #fff;
-}
 #header3-35 .mbr-section-title,
 #header3-35 .mbr-section-subtitle {
   text-align: center;
@@ -1276,6 +1271,18 @@ h6,
 #header3-35 SMALL {
   text-align: right;
   color: #cccccc;
+}
+#header3-39 .mbr-section-title,
+#header3-39 .mbr-section-subtitle {
+  text-align: center;
+}
+#social-buttons4-37 .mbr-section-title,
+#social-buttons4-37 .btn-social {
+  color: #fff;
+}
+#header3-3a .mbr-section-title,
+#header3-3a .mbr-section-subtitle {
+  text-align: center;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -1339,16 +1346,4 @@ h6,
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
-}
-#header3-39 .mbr-section-title,
-#header3-39 .mbr-section-subtitle {
-  text-align: center;
-}
-#social-buttons4-37 .mbr-section-title,
-#social-buttons4-37 .btn-social {
-  color: #fff;
-}
-#header3-3a .mbr-section-title,
-#header3-3a .mbr-section-subtitle {
-  text-align: center;
 }
