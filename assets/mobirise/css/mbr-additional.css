@@ -488,7 +488,7 @@ h6,
 }
 #features6-21 P {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
 }
@@ -580,7 +580,7 @@ h6,
 }
 #features6-22 P {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
 }
@@ -687,6 +687,8 @@ h6,
   text-align: center;
 }
 
+
+
 #menu-d .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -750,9 +752,16 @@ h6,
 #menu-d .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
-#header3-4b .mbr-section-title,
-#header3-4b .mbr-section-subtitle {
+#features6-4g P {
   text-align: center;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+#features6-4g H4 {
+  font-family: 'Lora', serif;
+  font-size: 46px;
+  color: #ffffff;
 }
 #header3-4d .mbr-section-title,
 #header3-4d .mbr-section-subtitle {
