@@ -1292,6 +1292,13 @@ h6,
   text-align: right;
   color: #fff;
 }
+#buttons1-4i .btn {
+  font-size: 17px;
+}
+#header3-4j .mbr-section-title,
+#header3-4j .mbr-section-subtitle {
+  text-align: center;
+}
 #header3-35 .mbr-section-title,
 #header3-35 .mbr-section-subtitle {
   text-align: center;
