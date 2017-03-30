@@ -58,12 +58,6 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
-.btn {
-  border-radius: 1.6em;
-}
-.mbr-subscribe .btn {
-  border-radius: 1.6em !important;
-}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -1276,6 +1270,7 @@ h6,
 }
 
 
+
 #header1-29 .mbr-section-title {
   color: #efefef;
 }
@@ -1287,17 +1282,9 @@ h6,
 #header3-36 .mbr-section-subtitle {
   text-align: center;
 }
-#content8-47 .mbr-section-title,
-#content8-47 p {
-  text-align: right;
-  color: #fff;
-}
-#buttons1-4i .btn {
-  font-size: 17px;
-}
-#header3-4j .mbr-section-title,
-#header3-4j .mbr-section-subtitle {
-  text-align: center;
+#msg-box4-4q H3 {
+  font-size: 46px;
+  font-family: 'Montserrat', sans-serif;
 }
 #header3-35 .mbr-section-title,
 #header3-35 .mbr-section-subtitle {
@@ -1321,10 +1308,6 @@ h6,
 #social-buttons4-37 .mbr-section-title,
 #social-buttons4-37 .btn-social {
   color: #fff;
-}
-#header3-3a .mbr-section-title,
-#header3-3a .mbr-section-subtitle {
-  text-align: center;
 }
 #menu-0 .hide-buttons .nav-btn {
   display: none !important;
@@ -1388,6 +1371,10 @@ h6,
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#header3-4k .mbr-section-title,
+#header3-4k .mbr-section-subtitle {
+  text-align: center;
 }
 
 #menu-3v .hide-buttons .nav-btn {
