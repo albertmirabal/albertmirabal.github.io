@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Student Portfolio",
-    "currentPage": "animate.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -109,7 +109,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/untitled-1-529x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-for-youtube-banner-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -507,7 +507,7 @@
           "_anchor": "header3-3e",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -554,7 +554,7 @@
           "_anchor": "header3-3g",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -642,7 +642,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/untitled-1-529x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-for-youtube-banner-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -1040,7 +1040,7 @@
           "_anchor": "header3-3h",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -1087,7 +1087,7 @@
           "_anchor": "header3-3j",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -1479,7 +1479,7 @@
           "_name": "menu",
           "_anchor": "menu-d",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#5c616c",
             "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1494,7 +1494,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-for-youtube-banner-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
@@ -1716,7 +1716,7 @@
           "_anchor": "header3-4e",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -1855,7 +1855,7 @@
           "_anchor": "header3-3n",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -1902,7 +1902,7 @@
           "_anchor": "header3-3p",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -2745,7 +2745,7 @@
           "_name": "menu",
           "_anchor": "menu-1f",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#5c616c",
             "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -2760,10 +2760,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-for-youtube-banner-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -2950,7 +2952,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/untitled-1-529x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-for-youtube-banner-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -3390,7 +3392,7 @@
           "_anchor": "header3-3b",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -3437,7 +3439,7 @@
           "_anchor": "header3-3c",
           "_params": {
             "paddingTop": "0",
-            "paddingBottom": 1,
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -3522,6 +3524,13 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "font-size": "46px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
           "_anchor": "msg-box4-4q",
           "_params": {
             "imageSize": "53",
@@ -3568,14 +3577,7 @@
           },
           "title": "WATCH MY STORY",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"introduction.html\" data-toolbar=\"-mbrBtnMove\">BIOGRAPHY</a> <a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=qorRuY5GyyQ&amp;t=23s\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INTRODUCTION VIDEO</a>",
-          "_styles": {
-            "H3": {
-              "font-size": "46px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"introduction.html\" data-toolbar=\"-mbrBtnMove\">BIOGRAPHY</a> <a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=qorRuY5GyyQ&amp;t=23s\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INTRODUCTION VIDEO</a>"
         },
         {
           "_styles": {
@@ -3892,7 +3894,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/untitled-1-529x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-for-youtube-banner-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index landing page.html",
